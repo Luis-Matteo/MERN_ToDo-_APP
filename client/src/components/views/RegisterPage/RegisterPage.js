@@ -10,6 +10,7 @@ import {
   Input,
   Button,
 } from 'antd';
+import LoginByGoogle from "../LoginPage/googlelogin";
 
 const formItemLayout = {
   labelCol: {
@@ -191,6 +192,7 @@ function RegisterPage(props) {
                   Submit
                 </Button>
               </Form.Item>
+              <LoginByGoogle text = {'Signup With Google'} />
             </Form>
           </div>
         );

@@ -3,22 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@visx/axis": "^2.12.2",
+    "@visx/brush": "^2.12.2",
+    "@visx/gradient": "^2.10.0",
+    "@visx/group": "^2.10.0",
+    "@visx/shape": "^2.12.2",
+    "@visx/tooltip": "^2.10.0",
     "antd": "^3.24.1",
-    "axios": "^0.19.2",
+    "axios": "^0.27.2",
+    "axios-hooks": "^3.1.5",
+    "bootstrap": "^5.2.1",
+    "core-js": "^3.6.4",
+    "d3-array": "^3.2.0",
+    "date-fns": "^2.29.3",
     "formik": "^1.5.8",
     "moment": "^2.24.0",
+    "numeral": "^2.0.6",
     "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
+    "react-dropdown": "^1.10.0",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.4.0",
     "react-redux": "^7.1.0-rc.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.4.1",
     "redux": "^4.0.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
-    "yup": "^0.27.0",
-    "core-js": "^3.6.4",
-    "react-app-polyfill": "^1.0.6"
+    "use-query-params": "^2.1.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,6 +59,9 @@
     ]
   },
   "devDependencies": {
+    "@types/d3-array": "^3.0.3",
+    "@types/numeral": "^2.0.2",
+    "@types/styled-components": "^5.1.26",
     "http-proxy-middleware": "^1.0.3"
   }
 }
